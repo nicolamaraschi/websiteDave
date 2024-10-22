@@ -1,0 +1,68 @@
+/* Importazione del font Style Script da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+/* Sfondo rosa scuro per la navbar */
+.bg-pink {
+  background-color: #880024; /* Rosa scuro */
+}
+
+/* Contenitore della navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Stile per il logo testuale nella navbar */
+.navbar .logo-text {
+  font-family: 'Style Script', cursive;
+  font-size: 24px;
+  color: white !important; /* Assicura che il colore sia bianco */
+  text-decoration: none !important; /* Rimuove la sottolineatura */
+  border: none !important; /* Assicura che non ci sia sottolineatura anche da altre regole */
+  background: none; /* Per eliminare eventuali effetti */
+}
+
+/* Per la visualizzazione desktop: logo testuale attaccato a sinistra */
+.navbar .container {
+  display: flex;
+  justify-content: flex-start; /* Attacca la scritta a sinistra */
+  
+}
+
+/* Stile per i link nella navbar */
+.nav-link {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f8f9fa; /* Effetto hover sui link */
+}
+
+/* Allineamento e spaziatura centrata */
+.navbar-nav {
+  justify-content: center;
+}
+
+/* Stile per il pulsante di toggle della navbar */
+.navbar-toggler {
+  border: none;
+  color: white;
+}
+
+/* Media query per dispositivi mobili */
+@media (max-width: 991px) {
+  /* Centra la scritta per dispositivi mobili */
+  .navbar .container {
+    justify-content: center;
+  }
+  
+  /* Regola la dimensione del logo per i dispositivi mobili */
+  .logo-text {
+    font-size: 20px; /* Logo testuale leggermente più piccolo per schermi ridotti */
+  }
+}

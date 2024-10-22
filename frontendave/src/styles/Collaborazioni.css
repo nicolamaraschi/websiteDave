@@ -1,0 +1,35 @@
+.collaborazioni-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .collaborazioni-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .carousel img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption h3 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .collaborazioni-title {
+      font-size: 2em;
+    }
+    
+    .carousel img {
+      max-height: 300px;
+    }
+  }

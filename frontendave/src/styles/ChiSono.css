@@ -1,0 +1,50 @@
+.chi-sono-container {
+    padding: 50px 0;
+    font-family: 'Georgia', serif;
+    background-color: #fafafa;
+  }
+  
+  .chi-sono-title {
+    font-size: 2.5rem;
+    color: #b22222;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .chi-sono-description {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  .chi-sono-description strong {
+    color: #b22222;
+    font-weight: bold;
+  }
+  
+  .chi-sono-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .chi-sono-title {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .chi-sono-description {
+      font-size: 1.1rem;
+    }
+  
+    .chi-sono-container {
+      padding: 20px;
+    }
+  
+    .chi-sono-image {
+      margin-top: 30px;
+    }
+  }

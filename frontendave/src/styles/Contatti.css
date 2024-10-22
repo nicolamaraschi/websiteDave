@@ -1,0 +1,38 @@
+.contatti-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contatti-card {
+  margin: 20px 0;
+  padding: 20px;
+  border: none;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.contatti-card:hover {
+  transform: translateY(-5px);
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #880024;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffd700;
+}
+
+.map-container {
+  height: 400px; /* Altezza della mappa */
+  width: 100%; /* Larghezza della mappa */
+}

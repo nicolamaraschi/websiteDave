@@ -1,0 +1,27 @@
+.galleria-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .galleria-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .carousel img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .galleria-title {
+      font-size: 2em;
+    }
+  
+    .carousel img {
+      max-height: 300px;
+    }
+  }

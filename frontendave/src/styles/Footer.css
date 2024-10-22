@@ -1,0 +1,33 @@
+.footer {
+  background-color: #880024; /* Rosa scuro */
+  color: #fff; /* Colore del testo bianco */
+  position: relative;
+  width: 100%;
+  padding: 40px 0; /* Maggiore padding per un aspetto più arioso */
+  text-align: center; /* Centra il testo */
+}
+
+/* Link nel footer */
+.footer a {
+  color: #fff; /* Colore dei link bianco */
+  text-decoration: none; /* Rimuovi la sottolineatura */
+  transition: color 0.3s; /* Aggiungi una transizione per il colore */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Sottolinea i link al passaggio del mouse */
+  color: #ffd700; /* Colore oro al passaggio del mouse */
+}
+
+/* Stile per il logo nel footer */
+.footer-logo {
+  margin: 10px 0; /* Margine sopra e sotto il logo */
+  max-width: 1000px; /* Assicurati che il logo sia piccolo */
+  height: auto; /* Mantieni le proporzioni del logo */
+}
+
+/* Margine per i titoli */
+.footer h5 {
+  margin-top: 20px; /* Margine superiore per separare i titoli */
+  margin-bottom: 10px; /* Margine inferiore per un aspetto più arioso */
+}

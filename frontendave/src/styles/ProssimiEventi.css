@@ -1,0 +1,40 @@
+.eventi-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.eventi-title {
+    font-size: 2rem; /* Font grande per il titolo */
+    margin-bottom: 20px;
+}
+
+.eventi-list {
+    display: flex;
+    flex-wrap: wrap; /* Permette alle card di adattarsi al contenitore */
+    justify-content: center; /* Centra le card */
+}
+
+.evento-card {
+    background-color: #fff; /* Sfondo bianco per le card */
+    border: 1px solid #ccc; /* Bordo grigio chiaro */
+    border-radius: 8px; /* Angoli arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    margin: 10px;
+    padding: 15px;
+    width: 300px; /* Larghezza fissa per le card */
+    transition: transform 0.3s; /* Transizione per l'effetto hover */
+}
+
+.evento-card:hover {
+    transform: scale(1.05); /* Effetto zoom al passaggio del mouse */
+}
+
+.evento-image {
+    width: 100%; /* L'immagine occupa tutta la larghezza della card */
+    height: auto; /* Mantiene le proporzioni */
+    border-radius: 8px; /* Angoli arrotondati per l'immagine */
+}
+
+.evento-titolo, .evento-data, .evento-descrizione {
+    margin: 10px 0; /* Margine verticale per i testi */
+}

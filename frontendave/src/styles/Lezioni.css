@@ -1,0 +1,40 @@
+/* Contenitore per le lezioni */
+.lezioni-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif; /* Font migliorato */
+  }
+  
+  /* Titolo delle lezioni */
+  .lezioni-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Stile per la tabella */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Stile per le righe della tabella */
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover per le righe della tabella */
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Stile per la testa della tabella */
+  .thead-light th {
+    background-color: #ffc0cb; /* Rosa chiaro */
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Responsività */
+  .table-responsive {
+    overflow-x: auto; /* Consente lo scrolling orizzontale su dispositivi piccoli */
+  }

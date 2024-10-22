@@ -1,0 +1,23 @@
+/* Imposta il layout principale per riempire l'altezza disponibile */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Imposta la classe 'content' per prendere tutto lo spazio disponibile */
+.content {
+  flex: 1;
+}
+
+/* Imposta il footer in fondo */
+footer {
+  flex-shrink: 0;
+}
